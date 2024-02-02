@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+header {
+    background-color: rgb(129, 129, 129);
+    color: bisque;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 480px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+aside {
+    height: 100vh;
+    width: 200px;
+    background-color: rgb(129, 129, 129);
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside,
+header {
+    margin: 0;
+}
+
+a {
+    color: gold;
+}
+
+footer {
+    background-color: rgb(129, 129, 129);
+    color: bisque;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        order: -1;
+        
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+.h2link {
+    margin: 2px;
+}
+
+.topnav {
+    width: fit-content;
+    height: fit-content;
+}
+
+#mainicon-header {
+    position: sticky;
+}
+.wakatime {
+    display: flex;
+    align-items: normal;
+}
+
+.wakatime a {
+    height: 20px;
+    margin: 16px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skrypty JS</title>
+    <link rel="stylesheet" href="css/skrypty.css">
+    <link rel="icon" href="img/favicon.png">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="tile clickable" onclick="location.href='snake.html'">
+        <h1>Gra snake</h1>
+        <p>Prosta nieskończona gra snake</p>
+    </div>
+    <div class="tile">
+        <h1>Data i czas</h1>
+        <div onclick="document.getElementById('data').innerHTML = Date()">
+        <h3 class="clickable text-button">Kliknij</h3>
+        </div>
+        <p id="data"></p>
+    </div>
+</html>
