@@ -1,0 +1,1 @@
+[![wakatime](https://wakatime.com/badge/github/binquxxx/binquxxx.github.io.svg)](https://wakatime.com/badge/github/binquxxx/binquxxx.github.io)
