@@ -5,6 +5,9 @@ body {
 
 .header {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
@@ -24,7 +27,7 @@ header {
     padding: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    width: 480px;
+    width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -40,10 +43,6 @@ aside {
 aside,
 header {
     margin: 0;
-}
-
-a {
-    color: gold;
 }
 
 footer {
@@ -70,24 +69,24 @@ footer {
     }
 }
 
-.h2link {
-    margin: 2px;
+.topnav {
+    width: 100%;
 }
 
-.topnav {
-    width: fit-content;
-    height: fit-content;
+.h2link {
+    margin: 2px;
 }
 
 #mainicon-header {
     position: sticky;
 }
-.wakatime {
-    display: flex;
-    align-items: normal;
+
+.wakatime-repo {
+    padding: 10px;
 }
 
-.wakatime a {
-    height: 20px;
-    margin: 16px;
-}
+#hamburger {
+    position: absolute;
+    left: 0; 
+    padding: 10px;
+  }

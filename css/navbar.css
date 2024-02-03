@@ -17,7 +17,7 @@ ul {
     background-color: rgb(129, 129, 129);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   li {
@@ -63,15 +63,7 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  /* show/hide for the top navbar */
-  #topnav .topnav-content {
-    transform: translateX(-100%);
-    transition: transform 0.5s ease-out;
-  }
-  
-  #topnav.show .topnav-content {
-    transform: translateX(0); 
-  }
+}
   
   @media (max-width: 700px) {
 
@@ -89,4 +81,3 @@ ul {
     }
   
   }
-}
