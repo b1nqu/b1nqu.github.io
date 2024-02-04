@@ -2,6 +2,10 @@
     .topnav-mobile {
         display: none;
     }
+
+    #hamburger {
+      display: none;
+    }
 }
 
 .topnav-mobile {

@@ -3,53 +3,38 @@ html, body{
 }
 
 body {
-   background: linear-gradient(0deg, rgb(0, 251, 255) 0%, rgb(0, 255, 213) 50%, rgb(0, 251, 255) 100%)
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-header {
-    background: rgb(129, 129, 129);
-    text-align: center;
-    padding: 10px;
+article {
+   display: flex;
+   flex-wrap: wrap;
 }
 
-nav {
-    background: rgb(129, 129, 129);
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.ppl {
+    background-color: blue;
+    margin: 50px;
+    border-radius: 10px;
 }
 
-section {
-    padding-top:40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+@media(min-width: 1200px) {
+
+    article {
+        flex-wrap: nowrap;
+    }
+
 }
 
-h1 {
+@media(max-width: 1200px) {
+    
+    .ppl {
+        margin: 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-p {
-    text-align: center;
-    font-size: 16px;
-    font-family: sans-serif;
-    margin: 0 auto;
-    width: 300px;
-}
-
-
-.header {
-    padding: 10px;
-    width: fit-content;
-    margin: 10px auto;
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(233, 135, 7) 100%);
-    border-radius: 5px;
-}
-
-
-
 
 
