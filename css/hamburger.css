@@ -1,0 +1,21 @@
+
+
+#hamburger {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: rgb(129,129,129);
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 10px;
+}
+ #hamburger:hover {
+    background-color: rgb(253, 204, 186);
+    color: black;
+ }
+ @media(min-width: 700px) {
+    #hamburger {
+      display: none;
+    }
+}

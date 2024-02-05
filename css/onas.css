@@ -14,9 +14,10 @@ article {
 }
 
 .ppl {
-    background-color: blue;
+    background-color: rgb(175, 174, 174);
     margin: 50px;
     border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media(min-width: 1200px) {
@@ -36,5 +37,20 @@ article {
     }
 
 }
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+
 
 
