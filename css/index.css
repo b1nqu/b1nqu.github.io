@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/wall1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: rgb(129, 129, 129);
+    background-color: rgba(125, 1, 1, 0.725);
     color: bisque;
     padding: 10px;
     border-top-left-radius: 5px;
@@ -34,7 +34,7 @@ header {
 aside {
     height: 100vh;
     width: 200px;
-    background-color: rgb(129, 129, 129);
+    background-color: rgba(125, 1, 1, 0.725);
     color: bisque;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -45,7 +45,7 @@ header {
 }
 
 footer {
-    background-color: rgb(129, 129, 129);
+    background-color: rgba(125, 1, 1, 0.725);
     color: bisque;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

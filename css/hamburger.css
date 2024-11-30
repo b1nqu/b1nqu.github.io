@@ -5,13 +5,13 @@
     color: white;
     text-align: center;
     padding: 14px 16px;
-    background-color: rgb(129,129,129);
+    background-color: rgba(125, 1, 1, 0.725);
     width: fit-content;
     text-decoration: none;
     border-radius: 10px;
 }
  #hamburger:hover {
-    background-color: rgb(253, 204, 186);
+    background-color: rgb(210, 56, 0);
     color: black;
  }
  @media(min-width: 700px) {
