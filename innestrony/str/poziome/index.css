@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+}
+header {
+    background-image: url("wall1.jpeg");
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+h2 {
+    margin: 0px;
+    padding: 10px;
+}
+.topnav {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 0px;
+        overflow: hidden;
+        background-color: rgba(125, 1, 1, 0.725);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(210, 56, 0);
+        color: black;
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+
+      .right-content {
+        display: none;
+        position: sticky;
+        background-color: #f9f9f9;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 100%;
+        top: 50%;
+      }
+      
+      .right-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .right-content a:hover {background-color: #f1f1f1;}
+      
+      .right:hover .right-content {
+        display: block;
+      }
+    }
+      
